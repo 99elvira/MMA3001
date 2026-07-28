@@ -53,6 +53,25 @@ robot.drive(0, 50)  # Drive forward at 50% speed
 robot.disconnect()
 ```
 
+## 🤖 AI Acknowledgment
+
+This project makes use of generative AI tools in accordance with
+[Monash University's guidelines on acknowledging the use of AI](https://www.monash.edu/student-academic-success/learning-with-ai/academic-integrity-and-ai/acknowledging-the-use-of-ai).
+
+| Tool / Model | Purpose | Extent |
+|---|---|---|
+| Claude (Anthropic) | Project scaffolding, code structure, docstrings, tests, README formatting | Generated initial project layout, test cases, and documentation — all output critically reviewed and adapted by the author |
+| GitHub Copilot | Inline code completions and suggestions | Assisted with boilerplate and repetitive patterns during development |
+| Google Gemini | Notebook formatting and example generation | Used to format sections of workshop notebooks and generate initial code examples based on author-provided prompts |
+
+All AI-generated content has been reviewed and validated by the author(s).
+Final decisions on code inclusion, structure, and correctness remain the
+responsibility of the human developer(s).
+
+*This statement will be updated as the project evolves to reflect ongoing AI use.*
+
+---
+
 ## License
 
 MIT License — see [LICENSE](LICENSE) for details.
