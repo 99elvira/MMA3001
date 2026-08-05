@@ -1,0 +1,14 @@
+# Build scripts (not needed in repo)
+build_notebook.py
+build_notebook1.py
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Original files (keeping only completed versions)
+workshop2.ipynb
+notebook1.ipynb
