@@ -1,14 +1,58 @@
-# Build scripts (not needed in repo)
-build_notebook.py
-build_notebook1.py
-
-# Python cache
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+.eggs/
 
-# Jupyter
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
 .ipynb_checkpoints/
 
-# Original files (keeping only completed versions)
-workshop2.ipynb
-notebook1.ipynb
+# Data files (keep structure, ignore data)
+data/*.csv
+data/*.json
+data/*.h5
+data/*.pkl
+data/*.parquet
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Sphero specific
+*.bin
+firmware/
